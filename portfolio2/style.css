@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+	margin:auto;
+	background-color: black;
+	background-size: cover;
+	height: 100%;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 211px - 58px);
+  background-color: #659DBD;
+}
+
+footer{
+  text-align: center;
+  bottom: 0;
+  height: 0;
+  color: white;
+}
+
+/*navigation bar*/
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 28px 26px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #DAAD86;
+  overflow: hidden;
+}
+
+/*top header*/
+header{
+  color: black;
+  background: #ff944d;
+  text-align: center;
+  font-family: 'serif', 'monospace';
+}
+
+/* header kanan */
+.Rnav{
+  float: right;
+}
+
+/* Home */
+.Me{
+  width: 25%;
+}
+
+/* Intro */
+.intro{
+  width: 90%;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  display: flex;
+  margin: 4% auto 60px;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-intro{
+  text-align: center;
+}
+
+/* Welcome */
+.welcome{
+  font-size: 25px;
+}
+
+.ayat{
+  font-size: 30px;
+  text-align: left;
+}
+
+.thank{
+  text-align: left;
+  font-size: 20px;
+}
+
+/* Footer */
+.inner-footer{
+  margin: 0;
+  padding: 30px;
+  background-color: #333;
+}
+
+.social-links{
+  display: flex;
+}
+
+.social-links ul{
+  padding: 10px;
+  display: flex;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+
+.social-items{
+  list-style: none;
+}
+
+.social-items a{
+  padding: 30px 30px;
+  font-size: 30px;
+  color: #FBEEC1;
+  width: 300px;
+  height: 30px;
+  margin: auto;
+}
+
+ .outer-footer{
+  bottom: 0;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: #3f3f3f;
+}
+
+/* About Me */
+.skill{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Table */ 
+/* Style the table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 53%;
+  border: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style table headers and table data */
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #BC986A;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+
+/* Interest*/
+.tajukI{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Overlay */
+.container {
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rugby {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 60%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Work */
+.video{
+  text-align: center;
+}
+
+/* CV */
+.cv{
+  text-align: center;
+}
+/* Style buttons */
+.download {
+  text-decoration: none;
+  background-color: #FBEEC1;
+  border: none;
+  color: #8D8741;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+}
+
+/* Darker background on mouse-over */
+.download:hover {
+  background-color: #BC986A;
+}
+
+/*Contact*/
+.contact{
+  padding: 40px 0;
+  background-size: cover;
+}
+
+.contact h3{
+  text-align: center;
+  font-size: 29px;
+}
+
+.border{
+  width: 220px;
+  height: 10px;
+  background: black;
+  margin: 20px auto;
+}
+
+.form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.form{
+  box-shadow: 0 0 10px 4px; 
+}
+
+button{
+  width: 100px;
+}
